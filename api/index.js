@@ -19,6 +19,9 @@
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
+const {getAPIcountry}=require('./src/controllers/getAPIcountry.js');
+
+getAPIcountry()
 
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => {
