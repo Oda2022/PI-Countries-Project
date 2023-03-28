@@ -1,0 +1,49 @@
+html, body {
+  overflow: hidden;
+}
+
+
+.homepage {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Imagenes/landing perfect.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.imgLanding {
+  height: 100%;
+  z-index: -1;
+  
+}
+
+
+.boton {
+  width: 10%;
+  border-radius: 10px;
+  background-color: rgba(93, 37, 156, 0.915);
+  font-size: 30px;
+  font-style: normal;
+  border-color: rgb(231, 234, 240);
+  color: white; 
+  padding: 20px;
+  box-shadow: 20px;
+  position: absolute;
+  top: 50%; /* Posicionamos el botón en el centro vertical */
+  left: 50%; /* Posicionamos el botón en el centro horizontal */
+  transform: translate(-50%, -50%); /* Centramos el botón */
+  
+}
+
+.boton:hover {
+  background-color:rgb(148, 204, 236) ;
+  color: rgba(2, 12, 14, 0.911);
+  font-weight: bolder;
+  font-size: 30px;
+}
